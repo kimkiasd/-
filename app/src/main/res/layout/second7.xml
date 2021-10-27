@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity"
+    tools:ignore="SpeakableTextPresentCheck">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="유튜버 권혁 "
+        android:textSize="28dp"
+        ></TextView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:id="@+id/btnGoGo"
+        android:layout_weight="1"
+
+        android:text="Lv.1 누구나 쉽게 할 수 있는 체지방 삭제루틴"></Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:id="@+id/btnGoGo2"
+        android:layout_weight="1"
+        android:text="Lv.2 꽉! 차는 머슬핏 만드는 팔 루틴 (이두,삼두) 덤벨필요"></Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:id="@+id/btnGoGo3"
+        android:layout_weight="1"
+        android:text="Lv.3 완벽한 복근을 만들기 위한 8분 루틴! 따라만하세요! (누구나 집에서도 가능)"></Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:id="@+id/btnGoGo4"
+        android:layout_weight="1"
+        android:text="Lv.4 4분만에 체지방 소멸! 초 고강도 타바타 루틴!"></Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:id="@+id/btnGoGo5"
+        android:layout_weight="1"
+        android:text="Lv.5 13분만에 하체 마비시키는 루틴! 근육통100% 옵니다. (누구나 집에서 가능)"></Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:id="@+id/btnGoGo6"
+        android:layout_weight="1"
+        android:text="Lv.6 10가지 푸쉬업으로 10분안에 가슴완성하기! (10-10)"></Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:id="@+id/btnGoGo7"
+        android:layout_weight="1"
+        android:text="Lv.7 8분만에 상체전체를 탈탈 털어버리는 홈트루틴 (누구나 쉽게 가능)"></Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:id="@+id/btnGoGo8"
+        android:layout_weight="1"
+        android:text="Lv.8 이 12분짜리 영상 딱! 하나로 전신 한방에 끝내버리세요!"></Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:id="@+id/btnGoGo9"
+        android:layout_weight="1"
+        android:text="Lv.4 덤벨없이 딱 14분! 집에서 등 화형시키는 루틴! 따라만하세요"></Button>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="유튜버 땅크부부 "
+            android:textSize="28dp"
+            ></TextView>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:id="@+id/btnGoGo10"
+            android:layout_weight="1"
+
+            android:text="허벅지살 다리살 최고의 운동"></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:id="@+id/btnGoGo11"
+            android:layout_weight="1"
+            android:text="뱃살 아랫뱃살 최고의 운동"></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:id="@+id/btnGoGo12"
+            android:layout_weight="1"
+            android:text="전신 다이어트 최고의 운동 [칼소폭 찐 핵핵매운맛]"></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:id="@+id/btnGoGo13"
+            android:layout_weight="1"
+            android:text="상체비만 다이어트 최고의 운동 [상체 핵매운맛]"></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:id="@+id/btnGoGo14"
+            android:layout_weight="1"
+            android:text="11자복근 복부 최고의 운동 [복근 핵매운맛]"></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:id="@+id/btnGoGo15"
+            android:layout_weight="1"
+            android:text="전신 다이어트 최고의 운동 [칼소폭 핵매운맛]"></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:id="@+id/btnGoGo16"
+            android:layout_weight="1"
+            android:text="아랫뱃살 똥배 폭파 운동"></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:id="@+id/btnGoGo17"
+            android:layout_weight="1"
+            android:text="전신/하체비만/상체비만/골반교정/승모근/종아리알 스트레칭 이거 하나로 끝!"></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:id="@+id/btnGoGo18"
+            android:layout_weight="1"
+            android:text="상체 다이어트 최고의 운동 BEST [팔뚝살/겨드랑이살/등살/가슴어깨라인]"></Button>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="유튜버 힙으뜸 "
+            android:textSize="28dp"
+            ></TextView>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:id="@+id/btnGo"
+            android:layout_weight="1"
+            android:text="(층간소음X) 살 찐 분들 들어오세요‼️ 급찐급빠 단기간 다이어트 운동루틴"></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:id="@+id/btnGo2"
+            android:layout_weight="1"
+            android:text="🔥유산소🔥 실내자전거 타는 법! (무릎 통증❌, 올바른 자세, 심박수, 가이드라인, 인터벌 프로그램)"></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:id="@+id/btnGo3"
+            android:layout_weight="1"
+            android:text="(층간소음X, 설명O) 진짜 힘듦주의.. 🔥초강력🔥 힙으뜸 하체운동 2주 챌린지"></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:id="@+id/btnGo4"
+            android:layout_weight="1"
+            android:text="10분으로 끝내는 🔥대환장파티 전신운동🔥 (with 줄리엔강)"></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:id="@+id/btnGo5"
+            android:layout_weight="1"
+            android:text="🏅요일별운동🏅 목요일 다리라인 완벽정리!! 슬림탄탄 올인원 하체루틴"></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:id="@+id/btnGo6"
+            android:layout_weight="1"
+            android:text="🏅요일별운동🏅 수요일 탄력있는 가슴, 겨드랑이 군살타파! 가슴 운동루틴"></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:id="@+id/btnGo7"
+            android:layout_weight="1"
+            android:text="🏅요일별운동🏅 월요일 속근육을 탄탄하게! 복근코어 운동 루틴"></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:id="@+id/btnGo8"
+            android:layout_weight="1"
+            android:text="🌞아침에 한 번, 자기 전 한 번🌜 몸을 풀어주는 척추, 하체 스트레칭"></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:id="@+id/btnGo9"
+            android:layout_weight="1"
+            android:text="(층간소음X, 설명O) 🔥짧고 굵게🔥 복근만들기 2주 챌린지"></Button>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="유튜버 이지은 다이어트 Jiny diet "
+            android:textSize="28dp"
+            ></TextView>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:id="@+id/btnn"
+            android:layout_weight="1"
+            android:text="🔥복부지방 소멸, 허리둘레 -3cm, 일자복근 get🔥 하는 복부올킬루틴 [7일 리얼 비포에프터]"></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:id="@+id/btnn2"
+            android:layout_weight="1"
+            android:text="야식습관 ‘이렇게’ 고쳤더니 이젠 살이 너무 쭉쭉 빠져요.."></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:id="@+id/btnn3"
+            android:layout_weight="1"
+            android:text="동작은 쉽지만 효과는 최강❗️ 볼록한 똥배가 👉🏻쏙👈🏻 빠지는 8분 루틴 (허리통증X, 손목부담X, 층간소음X)"></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:id="@+id/btnn4"
+            android:layout_weight="1"
+            android:text="하루 운동 이거로 끝! [유산소 + 미운지방] 한방에 정리하는 30분 홈트루틴🔥"></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:id="@+id/btnn5"
+            android:layout_weight="1"
+            android:text="♦️옆,뒤 볼록한 종아리알♦️ 빨리 빼려면 이 스트레칭 딱 일주일만 해보세요🙀🔥"></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:id="@+id/btnn6"
+            android:layout_weight="1"
+            android:text="♦️허벅지사이 제일 위쪽 살!♦️빼서, 똑 떨어진 허벅지사이 라인 만들기 1주 루틴"></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:id="@+id/btnn7"
+            android:layout_weight="1"
+            android:text="♦️두꺼운 배둘레햄♦️ 에서 탈출! 잘록허리 만들기!"></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:id="@+id/btnn8"
+            android:layout_weight="1"
+            android:text="(ENG) 당신의 다이어트에 가장 도움이 되는 운동은 바로 '이것'입니다!"></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:id="@+id/btnn9"
+            android:layout_weight="1"
+            android:text="(ENG) [얼굴붓기/사각턱/광대] 매일5분! 잠깐 따라하면 윤곽주사 보다 효과좋은 셀프 경락 마사지법"></Button>
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>
+
+
+

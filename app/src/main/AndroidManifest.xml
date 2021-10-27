@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.a2017270030_210922_10_1">
+    <uses-permission android:name ="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-feature android:name="android.hardware.sensor.stepdetector"></uses-feature>
+
+
+
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+
+
+
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".sv"/>
+        <activity android:name=".secondActivity"
+            android:label="second 액티비티"/>
+        <activity android:name=".secondActivity2"
+            android:label="second2 액티비티"/>
+        <activity android:name=".secondActivity3"
+            android:label="second3 액티비티"/>
+        <activity android:name=".secondActivity4"
+            android:label="second4 액티비티"/>
+        <activity android:name=".secondActivity5"
+            android:label="second5 액티비티"/>
+        <activity android:name=".secondActivity6"
+            android:label="second6 액티비티"/>
+        <activity android:name=".secondActivity7"
+            android:label="second7 액티비티"/>
+        <activity android:name=".secondActivity8"
+            android:label="second8 액티비티"/>
+
+    </application>
+
+</manifest>

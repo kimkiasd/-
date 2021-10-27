@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+
+    <TextView
+        android:id="@+id/tx1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="                           운동목록"
+        android:textSize="24dp"
+        android:textColor="#ff1616"
+        android:background="#303030"
+        android:textDirection="firstStrongLtr">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:backgroundTint="@color/black">
+        <ImageButton
+            android:id="@+id/btn1"
+            android:layout_width="50dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:layout_gravity="bottom"
+            android:textSize="16dp"
+            app:backgroundTint="#0B0A0A"
+            android:src="@drawable/sv2"/>
+
+        <ImageButton
+            android:id="@+id/btn2"
+            android:layout_width="50dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:layout_gravity="bottom"
+            android:text="등 운동"
+            android:textSize="16dp"
+            app:backgroundTint="#0B0A0A"
+            android:src="@drawable/sv3"/>
+
+        <ImageButton
+            android:id="@+id/btn3"
+            android:layout_width="50dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:layout_gravity="bottom"
+            android:text="하체운동"
+            android:textSize="16dp"
+            app:backgroundTint="#0B0A0A"
+            android:src="@drawable/sv4"/>
+        <ImageButton
+            android:id="@+id/btn4"
+            android:layout_width="50dp"
+            android:layout_height="80dp"
+
+            android:layout_weight="1"
+            android:layout_gravity="bottom"
+            android:text="어깨운동"
+            android:textSize="16dp"
+            app:backgroundTint="#0B0A0A"
+            android:src="@drawable/sv5"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:background="#303030">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sv1"></ImageView>
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#303030">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btn5"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:text="운동 시작 기록"
+                android:textSize="13dp"
+                android:textColor="#ff1616"
+                android:layout_weight="1"
+                app:backgroundTint="#303030"></Button>
+            <Button
+                android:id="@+id/btn6"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:text="음악재생"
+                android:textSize="13dp"
+                android:textColor="#ff1616"
+                android:layout_weight="1"
+                app:backgroundTint="#303030"></Button>
+            <Button
+                android:id="@+id/btn7"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:text="운동 관련 영상"
+                android:textSize="13dp"
+                android:textColor="#ff1616"
+                android:layout_weight="1"
+                app:backgroundTint="#303030"></Button>
+
+            <Button
+                android:id="@+id/btn8"
+                android:layout_width="match_parent"
+                android:layout_height="83dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="만보기"
+                android:textColor="#ff1616"
+                android:textSize="13dp"
+                app:backgroundTint="#303030"></Button>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+
